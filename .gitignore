@@ -1,0 +1,12 @@
+Qserv_dataset-main/
+circuits_complete.csv
+*.zip
+*.pt
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+~$*.docx
+~$*.pptx
+Thumbs.db

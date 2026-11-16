@@ -1,0 +1,5 @@
+backend,train_frac,model,MAE,RMSE,fit_s
+Cairo,0.01,CNN+embedding,0.0895,0.1227,3.7
+Cairo,0.8,CNN+embedding,0.0691,0.1027,16.9
+Hanoi,0.01,CNN+embedding,0.0405,0.0722,4.0
+Hanoi,0.8,CNN+embedding,0.0319,0.0685,17.0

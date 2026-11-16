@@ -1,0 +1,9 @@
+backend,model,default_MAE,tuned_MAE,default_RMSE,tuned_RMSE,best_params,seconds
+Cairo,Ridge (tuned LinearRegression),0.0765,0.0765,0.107,0.107,{'alpha': 0.001},0
+Cairo,HistGradientBoosting,0.0682,0.0686,0.1011,0.1008,"{'min_samples_leaf': 20, 'max_leaf_nodes': 31, 'max_iter': 200, 'learning_rate': 0.03, 'l2_regularization': 0.1}",66
+Cairo,XGBoost,0.0704,0.0676,0.1066,0.1008,"{'subsample': 0.85, 'n_estimators': 400, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.05, 'colsample_bytree': 0.7}",17
+Cairo,DenseNN (MLP),0.0721,0.069,0.1039,0.101,"{'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__hidden_layer_sizes': (256, 128, 64), 'mlpregressor__alpha': 0.0001}",128
+Hanoi,Ridge (tuned LinearRegression),0.0759,0.0759,0.0953,0.0953,{'alpha': 1},0
+Hanoi,HistGradientBoosting,0.0286,0.0284,0.0585,0.0581,"{'min_samples_leaf': 10, 'max_leaf_nodes': 15, 'max_iter': 200, 'learning_rate': 0.05, 'l2_regularization': 0.1}",50
+Hanoi,XGBoost,0.0294,0.0278,0.0619,0.0586,"{'subsample': 0.85, 'n_estimators': 800, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.85}",13
+Hanoi,DenseNN (MLP),0.0333,0.0312,0.0642,0.0606,"{'mlpregressor__learning_rate_init': 0.01, 'mlpregressor__hidden_layer_sizes': (256, 128, 64), 'mlpregressor__alpha': 1e-05}",101
