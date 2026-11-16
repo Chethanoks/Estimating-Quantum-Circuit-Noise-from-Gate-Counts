@@ -2,8 +2,8 @@
 
 Course project, **Quantum Computing (25AM3504)**, School of Engineering, Dayananda Sagar University.
 
-**Team:** Chethan K S (ENG23AM0020), Aditya Rao M R (ENG23AM0102), G M Mohammad Noman (ENG23AM0125)
-**Supervisor:** Mr. Souvik Ghosh, Department of CSE (AI&ML), SOE, DSU
+Chethan K S 
+
 
 ## What this project does
 
